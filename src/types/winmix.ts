@@ -42,6 +42,8 @@ export type M1Source = 'fitted' | 'manual';
 export type DiagnosticLevel = 'info' | 'warn' | 'error';
 export type StorageBackend = 'local' | 'memory';
 export type ViewKey =
+'overview' |
+'matches' |
 'dashboard' |
 'operations' |
 'pipeline' |

@@ -6,6 +6,8 @@ import {
   Download,
   Gauge,
   LineChart,
+  ListFilter,
+  LayoutDashboard,
   Target,
   Upload,
   Users } from
@@ -20,6 +22,8 @@ interface NavItem {
 }
 
 const NAV_ITEMS: NavItem[] = [
+{ key: 'overview', label: 'Publikált áttekintés', icon: LayoutDashboard },
+{ key: 'matches', label: 'Publikált mérkőzések', icon: ListFilter },
 { key: 'dashboard', label: 'Taktikai Stúdió & Adatbázis', icon: Database },
 { key: 'operations', label: 'Pipeline Üzemeltetés (súlyok, beállítások, felhő)', icon: Gauge },
 { key: 'pipeline', label: 'Pipeline v2 Audit & Telemetria', icon: BarChart3 },
